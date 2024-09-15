@@ -21,7 +21,7 @@
       base0F = "d65d0e"; # brown
     };
 
-    image = /home/azathoth/Pictures/Wallpapers/wallpaper2.png;
+    image = /home/azathoth/Pictures/Wallpapers/Dark/awesome.jpg;
     polarity = "dark";
 
     fonts = {

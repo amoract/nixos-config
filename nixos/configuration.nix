@@ -1,7 +1,9 @@
-{ inputs, systemSettings, userSettings, ...}: {
+{ inputs, systemSettings, ...}: {
 
   imports = [
       ./hardware-configuration.nix
+      #	"${builtins.fetchTarball "https://github.com/nix-community/disko/archive/master.tar.gz"}/module.nix"
+      #	./disko.nix
       ./packages.nix
 
       ./modules/autostart.nix
@@ -41,6 +43,6 @@
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-  system.stateVersion = "23.05"; # Don't change it bro
+  system.stateVersion = "24.05"; # Don't change it bro
 
 }

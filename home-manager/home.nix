@@ -1,6 +1,7 @@
-{
+{ userSettings, ... }: {
   imports = [
     ./modules/btop.nix
+    ./modules/firefox.nix
     ./modules/gtk.nix
     ./modules/kitty.nix
     ./modules/qt.nix
@@ -12,8 +13,8 @@
   ];
 
   home = {
-    username = "azathoth";
-    homeDirectory = "/home/azathoth";
-    stateVersion = "23.11";
+    username = userSettings.username;
+    homeDirectory = "/home/${userSettings.username}";
+    stateVersion = "24.05";
   };
 }

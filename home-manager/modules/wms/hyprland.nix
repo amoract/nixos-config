@@ -108,7 +108,7 @@
       exec-once = [
 	    "spoofdpi"
         "swww init"
-        "swww img ~/Pictures/Wallpapers/wallpaper1.png"
+        "swww img ~/Pictures/Wallpapers/Dark/awesome.jpg"
         "waybar"
         "wl-paste --type text --watch cliphist store"
         "wl-paste --type image --watch cliphist store"
