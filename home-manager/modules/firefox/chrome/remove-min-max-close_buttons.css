@@ -1,0 +1,21 @@
+/* ----------------------------------------------------------------- */
+/* ---------- Remove close/min/max window buttons ------------- */
+/* ----------------------------------------------------------------- */
+#navigator-toolbox #nav-bar {
+  padding-right: 0px !important;
+}
+
+#TabsToolbar .titlebar-buttonbox-container .titlebar-button {
+	width: 0px !important;
+  min-width: 0px !important;
+  min-height: 0px !important;
+  height: 0px !important;
+}
+
+#TabsToolbar .titlebar-button > .toolbarbutton-icon {
+  width: 0px !important;
+  min-width: 0px !important;
+  min-height: 0px !important;
+  height: 0px !important;
+  stroke: none !important;
+}

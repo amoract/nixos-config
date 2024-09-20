@@ -1,0 +1,15 @@
+/* Blur your tabs and show on hover  */
+
+#main-window[privatebrowsingmode="temporary"] #tabbrowser-tabs .tabbrowser-tab .tab-stack .tab-content {
+    filter: blur(4px) !important;
+    transition: filter 200ms linear !important;
+}
+
+#main-window[privatebrowsingmode="temporary"] #tabbrowser-tabs .tabbrowser-tab:hover .tab-stack .tab-content {
+    filter: blur(0px) !important;
+}
+
+.tab-stack .containerTab[containerName="Private"] {
+    filter: blur(4px) !important;
+    transition: filter 200ms linear !important;
+}
